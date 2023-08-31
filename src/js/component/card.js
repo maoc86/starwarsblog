@@ -20,8 +20,8 @@ export const Card = ({ item, resource }) => {
 
   return (
     <div
-      className="card my-5 mx-3 border-0 rounded-5"
-      style={{ minWidth: "18rem" }}
+      className="card my-5 mx-3 border-4 rounded-5"
+      style={{ minWidth: "13rem" }}
     >
       <img
         src={
@@ -35,10 +35,11 @@ export const Card = ({ item, resource }) => {
         alt="..."
       />
 
-      <div className="card-body bg-dark">
-        <h3 className="card-title font-weight-bold text-white py-2">
+      <div className="card-body bg-ligth">
+        <h3 className="card-title font-weight-bold text-red py-2">
           {item.name}
         </h3>
+
         <div className="d-flex contanier justify-content-between">
           <Link
             to={`/${resource}/${item.uid}`}
