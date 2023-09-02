@@ -52,7 +52,7 @@ body {
 .navbar {
   background-blend-mode: darken;
   background-color: #6e7685;
-  background-image: url(https://fixthephoto.com/images/content/night-sky-photoshop-overlays-191608800716.jpg);
+  background-image: url("/src/img/fondo.jpg");
 }
 
 ::-webkit-scrollbar {
